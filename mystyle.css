@@ -199,6 +199,7 @@ nav ul li a:hover{
 
 .content{
     text-align: center;
+    position: fixed;
 }
 
 .content h1{
