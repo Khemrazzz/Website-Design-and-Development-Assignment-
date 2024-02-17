@@ -171,7 +171,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav .logo{
@@ -322,7 +321,6 @@ footer{
     text-align: center;
     color: #ffffff;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .format {
