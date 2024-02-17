@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 .body {
     
     overflow: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .index{
@@ -170,6 +170,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav .logo{
@@ -259,6 +261,33 @@ nav ul li a:hover{
 
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav .logo {
+        width: 60px;
+        height: 70px;
+    }
+
+    nav ul li {
+        margin-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .section {
+        padding: 40px;
+    }
+
+    .section-content h2 {
+        font-size: 20px;
+    }
+}
+
 .social-icons {
     position: absolute;
     bottom: 44px; /* Adjust the distance from the bottom */
@@ -292,6 +321,8 @@ footer{
     padding: 1em;
     text-align: center;
     color: #ffffff;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .format {
